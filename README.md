@@ -41,11 +41,15 @@ This project fine-tunes a pretrained **BERT (bert-base-uncased)** model to class
 * ✅ Loss: **0.47**
 * ✅ Model saved using `model.save_pretrained()` for future use or deployment
 
-### 📦 Requirements
-* `transformers`
-* `datasets`
-* `pandas`
-* `sklearn`
+### 🛠️ Tech Stack
+* `Hugging Face`
+* `Transformers`
+* `Google Colab (with GPU)`
+* `Datasets`
+* `Python`
+* `Pandas`
+* `Scikit-learn`
 * `wandb`
-* `nltk`
 * `pytorch`
+
+🔄 From Traditional NLP to Deep Learning with PyTorch, this project builds upon previous work (Link: https://github.com/Ilhamlafeer/Airline-Sentiment-Analysis-Using-NLP) where traditional NLP techniques such as TF-IDF vectorization combined with classical machine learning models (like Naive Bayes and Random Forest) were used for sentiment classification on the same dataset. In this repository, I have fine-tuned a pretrained BERT model using pytorch through the Hugging Face Transformers library.
